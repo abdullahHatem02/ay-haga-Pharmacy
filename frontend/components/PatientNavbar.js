@@ -44,7 +44,7 @@ const AdminNavbar = () => {
           className={`links&buttons collapse navbar-collapse col-md-6 align-self-end ms-auto ${isMenuOpen ? 'show' : ''}`}>
           <ul className="navbar-nav ms-auto">
             <li className="nav-item ms-auto">
-              <a onClick={handleLogout} className="btn btn-primary" href="/guest/login">
+              <a onClick={handleLogout} className="btn btn-primary" href="/guest/Login">
                 Logout
               </a>
             </li>
