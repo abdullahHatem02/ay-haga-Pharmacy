@@ -41,6 +41,13 @@ export default function RootLayout({ children }) {
         </ReduxProvider>
         <Footer role={role} />
       </body>
+      <script src="/jquery-3.7.1.min.js" type="text/javascript"></script>
+      <script>
+        $(document).ready(function(){
+          $('input').attr('autocomplete','off');
+          $('form').attr('autocomplete','off');
+        });
+      </script>
     </html>
   );
 }
