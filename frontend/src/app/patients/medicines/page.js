@@ -9,7 +9,7 @@ function MedicineList() {
     <>
       <Sidebar />
       <div className="m-5">
-        <MedicineComponent title="XPharmacy Medicine" role="patient" />
+        <MedicineComponent title="Vite Medicine" role="patient" />
         {/* <Footer/> */}
       </div>
     </>

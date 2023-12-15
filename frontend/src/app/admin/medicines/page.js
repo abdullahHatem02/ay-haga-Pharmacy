@@ -4,7 +4,7 @@ import { MedicineComponent } from "../../../../components/MedicineComponent";
 function MedicineList() {
   return (
     <div className="m-5">
-      <MedicineComponent title="XPharmacy Medicine" role="admin" />
+      <MedicineComponent title="Vite Medicine" role="admin" />
       {/* <Footer/> */}
     </div>
   );

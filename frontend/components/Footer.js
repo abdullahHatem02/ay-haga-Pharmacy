@@ -61,11 +61,11 @@ const Footer = () => {
             </p>
             <p>
               {" "}
-              <Image src="/mail.svg" height={18} width={18} /> info@Pharmacy.com
+              <Image src="/mail.svg" height={18} width={18} /> info@VitePharmacy.com
             </p>
             <p>
               {" "}
-              <Image src="/location.svg" height={22} width={22} /> Pharmacy
+              <Image src="/location.svg" height={22} width={22} /> Vite Pharmacy
               Address
             </p>
           </div>

@@ -131,7 +131,7 @@ function ForgotPasswordForm() {
           className="row gradient-background m-5 rounded shadow mx-auto"
         >
           <div className="col-md-4 mx-auto m-5 p-5">
-            <h1 className="text-bold text-light rounded">XPharmacy</h1>
+            <h1 className="text-bold text-light rounded">Vite Meds</h1>
             <h2 className="text-light rounded px-3">
               Convenient pharmacy at your fingertips...
             </h2>

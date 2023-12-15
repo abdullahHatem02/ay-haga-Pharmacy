@@ -54,7 +54,7 @@ const LandingPage = () => {
               </h2>
               <div className="bg-light card border-0 shadow ">
                 <div className="card-body">
-                  <h5 className="card-title text-primary">XPharmacies</h5>
+                  <h5 className="card-title text-primary">Vite Meds</h5>
                   <p className="card-text">
                     At XPharmacies, we are more than just a pharmacy; we are
                     your <strong>trusted healthcare partner</strong>. With a
