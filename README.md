@@ -37,6 +37,18 @@ The development team is utilizing GitHub for version control anlong with the Git
 
 ## Screenshots
 
+![Admin Dashboard](image.png)
+![Admin Sales Report](image-1.png)
+![Admin Medicines Page](image-10.png)
+![Patient Profile Page](image-2.png)
+![Patient Medicines Page](image-4.png)
+![Patient Cart](image-5.png)
+![Patient Checkout](image-6.png)
+![Patient Checkout - Add Address](image-7.png)
+![Patient View Order Details](image-8.png)
+![Patient Cancel Order Warning](image-9.png)
+![Pharmacist Profile Page](image-11.png)
+
 (Include a few screenshots or a video link showcasing the system.)
 
 ## Tech/Framework Used
