@@ -12,6 +12,8 @@ Passing - All tests successful as of 16/12/2023.
 
 Adhering to the Prettier code formatter for JavaScript. This project was built by utilizing a modern JavaScript ES6+ style in our code, combined with React functional components and Redux for state management. This approach reflects a preference for a scalable and efficient web application development. It features arrow functions, template literals, and React hooks like useState and useEffect, along with Redux's useDispatch and useSelector for state management. The project code demonstrates a structured and modular component architecture, as seen in the various component and action imports. Additionally, Next.js features were incorporated, such as optimized image handling, client-side directives and file path aliases to maintain an organized and effective development process.
 
+CODE reviews -- camelCase for JS & kebab-case for css & PascalCase for components
+
 ## Screenshots
 
 (Include a few screenshots or a video link showcasing the system.)
@@ -21,6 +23,8 @@ Adhering to the Prettier code formatter for JavaScript. This project was built b
 Built with: React.js, Next.js, Node.js, MongoDB, Tailwind CSS, Tremor, CSS, HTML.
 
 ## Features
+
+--requirements
 
 - Guest can sign up to be a patient
 - Guest can apply to be a pharmacist
@@ -41,14 +45,12 @@ Built with: React.js, Next.js, Node.js, MongoDB, Tailwind CSS, Tremor, CSS, HTML
 
 ## Installation (??)
 
+'git clone' to clone the project onto your device or download the zipfile through gutHub
 'npm i' -- install all project dependencies
 'cd backend' & 'npm i' -- install all backend dependencies
 'cd newfrontend' & 'npm i' -- install all frontend dependencies
 
-'cd backend' & 'nodemon server' -- to run the backend
-'cd newfrontend' & 'npm run dev' -- to run the frontend
-
-you will now find the project frontend running on "localhost:3000/" & backend running on "localhost:3001/"
+--config files ????
 
 ## API References
 
@@ -58,11 +60,20 @@ Stripe -- creditcard payment gateway
 
 ## Tests
 
+--postman
 We use Jest for unit testing and Cypress for end-to-end testing. Detailed instructions on running tests are provided.
 
 ## How to Use
 
-User guide for navigating the platform, managing accounts, purchasing medicines, and using the pharmacist and admin panels.
+-- How to run the project --
+
+'cd backend' & 'nodemon server' -- to run the backend
+'cd newfrontend' & 'npm run dev' -- to run the frontend
+
+you will now find the project frontend running on "localhost:3000/" & backend running on "localhost:8000/"
+
+-- User guide for navigating the platform --
+
 Guest User:
 As a Guest at the landing page, you can browse Homepage & policies through the navbar & footer 'home' & 'policy' links, as well as login/signup through the buttons in the navbar. You can also apply to be a ViteMeds pharmacist through the careers link! If you are a registered user but can't remember your password you can also reset your password through our login page.
 
