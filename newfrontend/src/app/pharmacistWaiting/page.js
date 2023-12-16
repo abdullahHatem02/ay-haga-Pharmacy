@@ -26,7 +26,7 @@ const ContractPage = () => {
 
     return (
         <>
-        <Header></Header>
+        <Header logoutOnly={true}></Header>
         <div>
             <div className="text-center my-10 py-10">
                 <h1 style={{

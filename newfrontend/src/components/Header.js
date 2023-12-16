@@ -1,8 +1,16 @@
+'use client'
 import React from "react";
+import { logoutAction } from "@/app/redux/actions/authActions";
+import { useDispatch } from "react-redux";
 
-const Header = () => {
+const Header = ({logoutOnly}) => {
+  const dispatch = useDispatch();
+
+  console.log(logoutOnly)
+
   return (
     <>
+    {(logoutOnly!=true) ? (
       <div className="w-full min-h-24 p-5">
         <nav className="w-full h-full bg-gray-900 flex py-8 rounded-lg px-8 items-center justify-between">
           <div className="flex">
@@ -25,7 +33,28 @@ const Header = () => {
             </ul>
           </div>
         </nav>
-      </div>
+      </div>) : (
+              <div className="w-full min-h-24 p-5">
+              <nav className="w-full h-full bg-gray-900 flex py-8 rounded-lg px-8 items-center justify-between">
+                <div className="flex">
+                  <img
+                    src="https://flowbite.com/docs/images/logo.svg"
+                    className="h-8"
+                    alt="Pharmacy Logo"
+                  />
+      
+                  <span className="ms-2 self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+                    Vite Meds
+                  </span>
+                </div>
+                <div>
+                  <ul class="list-none">
+                    <li class="inline mx-2" onClick={() => dispatch(logoutAction())} className="hover:text-gray-400">Logout</li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+      )}
     </>
   );
 };
