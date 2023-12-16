@@ -7,10 +7,10 @@ const ContractPage = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             const userInfoJSON = localStorage?.getItem("userInfo");
-            const userInfo = JSON.parse(userInfoJSON).data.user;
-            console.log(userInfo.data?.isApproved)
+            const userInfo = JSON.parse(userInfoJSON)?.data.user;
+            console.log(userInfo?.data?.isApproved)
             console.log('checking');
-            if (userInfo.data?.isApproved === true) {
+            if (userInfo?.data?.isApproved === true) {
                 clearInterval(interval); // Clear interval before redirecting
                 const url = "/pharmacist/profile";
                 setTimeout(() => {

@@ -44,12 +44,14 @@ const Header = ({logoutOnly}) => {
                   />
       
                   <span className="ms-2 self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                    Vite Meds
+                    <a href="/">Vite Meds</a>
                   </span>
                 </div>
                 <div>
                   <ul class="list-none">
-                    <li class="inline mx-2" onClick={() => dispatch(logoutAction())} className="hover:text-gray-400">Logout</li>
+                    <li class="inline mx-2" className="hover:text-gray-400"
+                    onClick={() => {dispatch(logoutAction());window.history.pushState({}, "", "/guest/login");window.location.reload();}}
+                    >Logout</li>
                   </ul>
                 </div>
               </nav>
