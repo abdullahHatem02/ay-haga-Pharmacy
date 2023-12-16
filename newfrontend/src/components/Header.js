@@ -16,8 +16,6 @@ const Header = () => {
               Vite Meds
             </span>
           </div>
-
-
           <div>
             <ul class="list-none">
               <li class="inline mx-2"><a href="/" className="hover:text-gray-400">Home</a></li>
